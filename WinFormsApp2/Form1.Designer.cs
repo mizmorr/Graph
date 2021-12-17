@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace WinFormsApp2
 {
     partial class Form1
@@ -124,6 +126,16 @@ namespace WinFormsApp2
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+           
         }
 
         #endregion
